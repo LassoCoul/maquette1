@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    padding: 0 10px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+}
+
+.nav-bar, .lien{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.lien{
+    width: 75%;
+    list-style: none;
+    height: 100rem;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+.reserver{
+    height: 100%;
+}
+
+.reserver > button{
+    flex-grow: 1;
+    height: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0 20px;
+}
+
+.reserver > img{
+    padding-left: 5px;
+}
+
+.section1{
+    margin-top: 50px;
+    display: grid;
+    background-image: url('/fond-section1.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    
+
+    background-color: bisque;
+}
+
+.taille1{
+    grid-column: 2/4;
+    grid-row: 3/4;
+    font-size: 1.5rem;
+    align-items: center;
+    
+    /* background-color: bisque; */
+}
+
+.taille2{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    font-size: 2rem;
+    /* background-color: rgb(126, 77, 18); */
+}
+
+.section1 > button{
+    padding: 10px;
+    grid-column: 2/2;
+    grid-row: 5/6;
+
+    /* background-color: rgb(182, 107, 16); */
+}
+
+.section2{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section2 p{
+    color: white;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #FFFFFF;
+}
+
+.titre-section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titre-section3 p{
+    font-size: 1.8rem;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.corps-section3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.paragraphe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.liste-section3{
+    list-style: none;
+    font-size: 2rem;
+}
+
+.titre-corps-section3{
+    font-size: 1.2rem;
+}
+
+.section4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+
+    background-color: #1E1E20;
+    color: #ADADAD;
+}
