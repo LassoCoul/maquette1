@@ -58,7 +58,7 @@ nav{
 .section1{
     margin-top: 50px;
     display: grid;
-    background-image: url('/fond-section1.jpg');
+    background-image: url('fond-section1.jpg');
     background-size: cover;
     background-position: center;
     grid-template-columns: repeat(15, 1fr);
